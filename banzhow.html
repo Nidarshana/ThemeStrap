@@ -11,7 +11,10 @@
 		<!-- Optional theme -->
 		<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">-->
 		<!-- Latest compiled and minified JavaScript -->
+		<link rel="stylesheet" href="flexslider.css" type="text/css">
+		 <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="jquery.flexslider.js"></script>		
 		<script type="text/javascript" src="banz.js"></script>
 		<script type="text/javascript" src="bootstrap.js"></script>
 		<script type="text/javascript" src="plugins.js"></script>
@@ -33,6 +36,18 @@
 
 	});
 	</script>
+	
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+	slideshowSpeed: 3000,
+	animation:"fadeInUp",
+	slideDirection: "horizontal",
+	});
+  });
+</script>
+	
+
 		<title>Banzhow</title>
 	</head>
 	
@@ -132,6 +147,9 @@
 			</div>
 		</nav> 
 		
+		
+			<div class="flexslider">
+
 		<div id="myCarousel" class="carousel slide">
 			<ol class="carousel-indicators">
 				<li class="" data-slide-to="0" data-target="#myCarousel"></li>
@@ -178,6 +196,7 @@
 			<a class="right carousel-control" data-slide="next" href="#myCarousel">
 				<i class="fa fa-angle-right"></i>
 			</a>
+		</div>
 		</div>
 
 		<div class="section">
@@ -512,6 +531,7 @@
 				</div>
 			</div>
 		</div>
+		<script src="assets/js/jquery.flexslider-min.js"></script>	
 
 	</body>
 </html>
