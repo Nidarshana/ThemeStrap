@@ -1,0 +1,516 @@
+<html>
+	<head>
+		<link href="bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="ban.css" rel="stylesheet" type="text/css">		
+		<link href="banzhow.css" rel="stylesheet" type="text/css">		
+		<link rel="stylesheet" href="font-awesome.css" type="text/css">
+		<link href="font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Latest compiled and minified CSS -->
+		<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">-->
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="banz.js"></script>
+		<script type="text/javascript" src="bootstrap.js"></script>
+		<script type="text/javascript" src="plugins.js"></script>
+		<script type="text/javascript" src="ban.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		  // add shrink class to site header if page scrolls more than 100px 
+        $(document).on("scroll", function(){
+
+		if($(document).scrollTop() > 100){
+
+			$("#headercontainer").addClass("shrink");
+
+		} else {
+
+			$("#headercontainer").removeClass("shrink");	
+
+		}
+
+	});
+	</script>
+		<title>Banzhow</title>
+	</head>
+	
+	
+	<body style="margin-bottom: 90px;">
+		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Banzhow</a>
+				</div>
+       
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a href="file:///C:/Users/Nooni/Desktop/Ideabox/Bootstrap/Banzhow.html">Home</a>
+						</li>
+						<li>
+							<a href="http://labs.segelsoft.com/banzhow/services.html">Services</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">
+								Portfolio 
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="portfolio-1-col.html">1 Column Portfolio</a>
+								</li>
+								<li>
+									<a href="portfolio-2-col.html">2 Column Portfolio</a>
+								</li>
+								<li>
+									<a href="portfolio-3-col.html">3 Column Portfolio</a>
+								</li>
+								<li>
+									<a href="portfolio-item.html">Single Portfolio Item</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">
+								Blog 	
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="blog-home-1.html">
+										Blog Home
+									</a>
+								</li>
+								<li>
+									<a href="blog-post.html">
+										Blog Post
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">
+								Other Pages 
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="full-width.html"></a>
+								</li>
+								<li>
+									<a href="sidebar.html">
+										Sidebar Page
+									</a>
+								</li>
+								<li>
+									<a href="faq.html">
+										FAQ
+									</a>
+								</li>
+								<li>
+									<a href="404.html">
+										404
+									</a>
+								</li>
+							</ul>	
+						</li>
+						<li>
+							<a href="contact.html">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav> 
+		
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li class="" data-slide-to="0" data-target="#myCarousel"></li>
+				<li class="active" data-slide-to="1" data-target="#myCarousel"></li>
+				<li class="" data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			
+			<div class="carousel-inner">
+				<div class="item active">
+					<div class="fill" style="background-image">
+						<img alt="First slide" src="http://labs.segelsoft.com/banzhow/img/slide/slide1.png" width="100%" height="100%"></img>
+					</div>
+						<div class="carousel-caption" style="">
+							<h2>clean and modern design</h2>
+							<a class="button" href="#">DOWNLOAD</a>
+						</div>
+				</div>
+				
+				<div class="item">
+					<div class="fill" style="background-image">
+						<img alt="First slide" src="http://labs.segelsoft.com/banzhow/img/slide/slide2.png" width="100%" height="100%"></img>
+					</div>
+						<div class="carousel-caption" style="display: non;">
+							<h2>fully responsive and retina ready</h2>
+							<a class="button" href="#">SEE MORE</a>
+						</div>
+				</div>
+				
+				<div class="item">
+					<div class="fill" style="background-image">
+						<img alt="First slide" src="http://labs.segelsoft.com/banzhow/img/slide/slide3.png" width="100%" height="100%"></img>
+					</div>
+						<div class="carousel-caption" style="display: none;">
+							<h2> based on twitter bootstrap</h2>
+							<a class="button" href="#">DOWNLOAD</a>
+						</div>
+				</div>
+			</div>
+			
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			
+			<a class="right carousel-control" data-slide="next" href="#myCarousel">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="block-icon">
+							<i class="fa fa-rocket"></i>
+						</div>
+						<div class="block-body">
+							<h2>Creative design</h2>
+							<div class="line-subtitle"></div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Aliquam dignissim placerat lectus, at ornare sapien tempor eget. Etiam vel vestibulum nisl
+							</p>
+						</div>
+					</div>
+			
+					<div class="col-md-4 col-sm-4">
+						<div class="block-icon">
+							<i class="fa fa-users"></i>
+						</div>
+						<div class="block-body">
+							<h2>Built for humans</h2>
+							<div class="line-subtitle"></div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Aliquam dignissim placerat lectus, at ornare sapien tempor eget. Etiam vel vestibulum nisl
+							</p>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="block-icon">
+							<i class="fa fa-cog"></i>
+						</div>
+						<div class="block-body">
+							<h2>Easy customization</h2>
+							<div class="line-subtitle"></div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Aliquam dignissim placerat lectus, at ornare sapien tempor eget. Etiam vel vestibulum nisl
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="section-colored home">
+			<div class="container">
+					<div class="row">
+						<div class="col-md-9 col-sm-8">
+							<h2>We can make real your bussiness project</h2>
+						</div>
+
+						<div class="col-md-3 col-sm-4">
+							<a class="btn btn-danger btn-lg" href="#">Contact with us</a>
+						</div>
+					</div>
+           </div>
+		</div>
+		
+		<div id="recent-projects" class="section" style="position: relative;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="section-title">Recent projects</h2>
+					</div>
+            
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a class="link-portfolio" href="portfolio-item.html">
+							<div class="overlay-portfolio">
+								<h3>Banzhow Template</h3>
+                        
+								<small class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing...
+                </small>
+							</div>
+                   
+							<img class="img-responsive img-home-portfolio" alt="portfolio 1" src="http://labs.segelsoft.com/banzhow/img/portfolio_1.png"></img>
+						</a>
+					</div>
+            
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a class="link-portfolio" href="portfolio-item.html">
+							<div class="overlay-portfolio">
+								<h3>Banzhow Template</h3>
+                       
+								<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing...</small>
+							</div>
+                
+							<img class="img-responsive img-home-portfolio" alt="portfolio 2" src="http://labs.segelsoft.com/banzhow/img/portfolio_2.png"></img>
+						</a>
+					</div>
+            
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a class="link-portfolio" href="portfolio-item.html">
+							<div class="overlay-portfolio">
+								<h3>Banzhow Template</h3>
+							
+								<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing...</small>
+							</div>
+         
+							<img class="img-responsive img-home-portfolio" alt="portfolio 3" src="http://labs.segelsoft.com/banzhow/img/portfolio_3.png"></img>
+						</a>
+					</div>
+            
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a class="link-portfolio" href="portfolio-item.html">
+							<div class="overlay-portfolio">
+								<h3>Banzhow Template</h3>
+                        
+								<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing...</small>
+							</div>
+                    
+							<img class="img-responsive img-home-portfolio" alt="portfolio 4" src="http://labs.segelsoft.com/banzhow/img/portfolio_4.png"></img>
+						</a>
+					</div>
+            
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a class="link-portfolio" href="portfolio-item.html">
+							<div class="overlay-portfolio">
+								<h3>Banzhow Template</h3>
+                        
+								<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing...</small>
+							</div>
+          
+							<img class="img-responsive img-home-portfolio" alt="portfolio 5" src="http://labs.segelsoft.com/banzhow/img/portfolio_5.png"></img>
+						</a>
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a class="link-portfolio" href="portfolio-item.html">
+							<div class="overlay-portfolio">
+								<h3>Banzhow Template</h3>
+                        
+								<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing...</small>
+							</div>
+        
+							<img class="img-responsive img-home-portfolio" alt="portfolio 6" src="http://labs.segelsoft.com/banzhow/img/portfolio_6.png"></img>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="section-colored">
+			<div class="container">
+				<h3 class="section-title text-center">Some of Our Clients</h3>
+        
+				<div class="container clients">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							<a href="#">
+								<img class="img-responsive" alt="client 1" src="http://labs.segelsoft.com/banzhow/img/client-1.png"></img>
+							</a>
+						</div>
+				
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							<a href="#">
+								<img class="img-responsive" alt="client 2" src="http://labs.segelsoft.com/banzhow/img/client-2.png"></img>
+							</a>
+						</div>
+					
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							<a href="#">
+								<img class="img-responsive" alt="client 3" src="http://labs.segelsoft.com/banzhow/img/client-3.png"></img>
+							</a>
+						</div>
+					
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							<a href="#">
+								<img class="img-responsive" alt="client 4" src="http://labs.segelsoft.com/banzhow/img/client-4.png"></img>
+							</a>
+						</div>
+					
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							<a href="#">
+								<img class="img-responsive" alt="client 5" src="http://labs.segelsoft.com/banzhow/img/client-5.png"></img>
+								</a>
+						</div>
+					
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							<a href="#">
+								<img class="img-responsive" alt="client 6" src="http://labs.segelsoft.com/banzhow/img/client-6.png"></img>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3">
+						<a class="footer-brand" href="index.html">Banzhow</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing…</p>
+                
+						<ul class="list-inline list-unstyled social-networks">
+							<li>
+								<a href="#">
+									<div class="icon-social icon-social-facebook normal">
+										<i class="fa fa-facebook"></i>
+									</div>
+									
+									<div class="icon-social hover">
+										<i class="fa fa-facebook"></i>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<div class="icon-social icon-social-twitter normal">
+										<i class="fa fa-twitter"></i>
+									</div>
+									
+									<div class="icon-social hover">
+										<i class="fa fa-twitter"></i>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<div class="icon-social icon-social-google-plus normal">
+										<i class="fa fa-google-plus"></i>
+									</div>
+								
+									<div class="icon-social hover">
+										<i class="fa fa-google-plus"></i>
+									</div>
+								</a>
+							</li>
+                
+							<li>
+								<a href="#">
+									<div class="icon-social icon-social-youtube normal">
+										<i class="fa fa-youtube-play"></i>
+									</div>
+                    
+									<div class="icon-social hover">
+										<i class="fa fa-youtube-play"></i>
+									</div>
+								</a>
+							</li>
+						
+							<li>
+								<a href="#">
+									<div class="icon-social icon-social-linkedin normal">
+										<i class="fa fa-linkedin"></i>
+									</div>
+									
+									<div class="icon-social hover">
+										<i class="fa fa-linkedin"></i>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<div class="icon-social icon-social-pinterest normal">
+										<i class="fa fa-pinterest"></i>
+									</div>
+									
+									<div class="icon-social hover">
+										<i class="fa fa-pinterest"></i>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="col-lg-3 col-md-3">
+						<h3>CONTACT</h3>
+						<address>
+							<i class="fa fa-map-marker"></i>
+							123 My Street, Banzhow City, CA 4567
+							<br></br>
+                    
+							<i class="fa fa-phone"></i>
+							(123) 456-7890
+							<br></br>
+                
+							<i class="fa fa-envelope"></i>
+							info@banzhow.com
+                        </address>
+					</div>
+            
+					<div class="col-lg-3 col-md-3">
+						<h3>LATEST TWEETS</h3>
+ 
+						<ul class="latest-tweets">
+							<li>
+								<i class="fa fa-twitter"></i>
+								Lorem ipsum dolor sit amet, consectetur adipiscin...
+							</li>
+							<li>
+								<i class="fa fa-twitter"></i>
+								Lorem ipsum dolor sit amet, consectetur adipiscin...
+							</li>
+						</ul>
+					</div>
+           
+					<div class="col-lg-3 col-md-3">
+						<h3>NEWSLETTER</h3>
+						
+						<p>Type your email address below and subscribe to our...</p>
+                
+						<div class="input-group">
+							<input class="form-control" type="text" placeholder="Email"></input>
+							<span class="input-group-btn">
+								<button class="btn btn-primary" type="button">Go!</button>
+							</span>
+						</div>
+                
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="footer-after">
+			<div class="container">
+				<div class="row">
+					<p class="col-md-10">
+						©2014 All rights reserved. Designed by John Doe.
+					</p>
+        
+					<p class="col-md-2 legal">
+						<a rel="nofollow" href="#">Legal Notice</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
